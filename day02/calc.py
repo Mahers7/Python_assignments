@@ -7,3 +7,6 @@ second = input("second number: ")
 
 sum = int(first) + int(second)
 print(f"The sum is {sum}")
+
+
+# to have the number with dots we can put float instead of int
