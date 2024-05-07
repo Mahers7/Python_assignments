@@ -7,5 +7,7 @@ def main() :
     area = int(length) * int(width) 
     print(f"The area is {area}")
 
-
+def display(area) :
+    print(f"the area is {area}")
+    display(area)
 main()
