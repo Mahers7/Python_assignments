@@ -1,0 +1,12 @@
+# Ignore temporary Excel files
+~$rnaseq_processed.xlsx
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore all temporary Excel files starting with ~$
+~$*
+
+# Ignore the output file if you want to regenerate it every time
+rnaseq_processed.xlsx
