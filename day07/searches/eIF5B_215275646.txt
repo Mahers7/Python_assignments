@@ -1,0 +1,306 @@
+LOCUS       IF2P_PONAB              1220 aa            linear   PRI 29-MAY-2024
+DEFINITION  RecName: Full=Eukaryotic translation initiation factor 5B;
+            Short=eIF-5B; AltName: Full=Translation initiation factor IF-2.
+ACCESSION   Q5RDE1
+VERSION     Q5RDE1.2
+DBSOURCE    UniProtKB: locus IF2P_PONAB, accession Q5RDE1;
+            class: standard.
+            created: Nov 25, 2008.
+            sequence updated: Nov 25, 2008.
+            annotation updated: May 29, 2024.
+            xrefs: CR857972.1, CAH90216.1
+            xrefs (non-sequence databases): AlphaFoldDB:Q5RDE1, SMR:Q5RDE1,
+            STRING:9601.ENSPPYP00000013483, eggNOG:KOG1144, InParanoid:Q5RDE1,
+            Proteomes:UP000001595, GO:0005739, GO:0005525, GO:0003924,
+            GO:0046872, GO:0003743, CDD:cd03703, CDD:cd16266, CDD:cd01887,
+            Gene3D:3.40.50.300, Gene3D:2.40.30.10, Gene3D:3.40.50.10050,
+            InterPro:IPR029459, InterPro:IPR027417, InterPro:IPR005225,
+            InterPro:IPR000795, InterPro:IPR015760, InterPro:IPR023115,
+            InterPro:IPR036925, InterPro:IPR009000, NCBIfam:TIGR00231,
+            PANTHER:PTHR43381:SF4, PANTHER:PTHR43381, Pfam:PF00009,
+            Pfam:PF14578, Pfam:PF11987, PRINTS:PR00315, SUPFAM:SSF52156,
+            SUPFAM:SSF52540, SUPFAM:SSF50447, PROSITE:PS51722
+KEYWORDS    Cytoplasm; GTP-binding; Hydrolase; Initiation factor;
+            Metal-binding; Nucleotide-binding; Phosphoprotein; Protein
+            biosynthesis; Reference proteome.
+SOURCE      Pongo abelii (Sumatran orangutan)
+  ORGANISM  Pongo abelii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pongo.
+REFERENCE   1  (residues 1 to 1220)
+  CONSRTM   The German cDNA consortium
+  TITLE     Direct Submission
+  JOURNAL   Submitted (??-NOV-2004) to the EMBL/GenBank/DDBJ databases
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].;
+            TISSUE=Kidney
+COMMENT     On Nov 28, 2008 this sequence version replaced gi:75070877.
+            [FUNCTION] Plays a role in translation initiation.
+            Ribosome-dependent GTPase that promotes the joining of the 60S
+            ribosomal subunit to the pre-initiation complex to form the 80S
+            initiation complex with the initiator methionine-tRNA in the P-site
+            base paired to the start codon. Together with eIF1A (EIF1AX),
+            actively orients the initiator methionine-tRNA in a conformation
+            that allows 60S ribosomal subunit joining to form the 80S
+            initiation complex. Is released after formation of the 80S
+            initiation complex. Its GTPase activity is not essential for
+            ribosomal subunits joining, but GTP hydrolysis is needed for eIF1A
+            (EIF1AX) ejection quickly followed by EIF5B release to form
+            elongation-competent ribosomes. In contrast to its procaryotic
+            homolog, does not promote recruitment of Met-rRNA to the small
+            ribosomal subunit. {ECO:0000250|UniProtKB:O60841}.
+            [CATALYTIC ACTIVITY] Reaction=GTP + H2O = GDP + H(+) + phosphate;
+            Xref=Rhea:RHEA:19669, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+            ChEBI:CHEBI:37565, ChEBI:CHEBI:43474, ChEBI:CHEBI:58189;
+            EC=3.6.5.3; Evidence={ECO:0000250|UniProtKB:O60841};
+            PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:19670;
+            Evidence={ECO:0000250|UniProtKB:O60841}.
+            [COFACTOR] Name=a monovalent cation; Xref=ChEBI:CHEBI:60242;
+            Evidence={ECO:0000250|UniProtKB:G0S8G9}; Note=Binds 1 monovalent
+            cation per monomer in the active site. Structural cofactor that
+            stabilizes the GTP-bound 'on' state. May also act as a transition
+            state stabilizer of the hydrolysis reaction.
+            {ECO:0000250|UniProtKB:G0S8G9}.
+            [SUBUNIT] Interacts through its C-terminal domain (CTD) with the
+            CTD of eIF1A (EIF1AX) or with the CTD of EIF5 (mutually exclusive)
+            through a common binding site. Interacts with eIF1A (EIF1AX) from
+            the location of the start codon by the 43S complex until the
+            formation of the 80S complex (By similarity). Interacts with ANXA5
+            in a calcium and phospholipid-dependent manner (By similarity).
+            {ECO:0000250|UniProtKB:B2GUV7, ECO:0000250|UniProtKB:O60841}.
+            [SUBCELLULAR LOCATION] Cytoplasm {ECO:0000250|UniProtKB:Q05D44}.
+            [SIMILARITY] Belongs to the TRAFAC class translation factor GTPase
+            superfamily. Classic translation factor GTPase family. IF-2
+            subfamily. {ECO:0000305}.
+            [SEQUENCE CAUTION] Sequence=CAH90216.1; Type=Frameshift;
+            Evidence={ECO:0000305}.
+FEATURES             Location/Qualifiers
+     source          1..1220
+                     /organism="Pongo abelii"
+                     /db_xref="taxon:9601"
+     gene            1..1220
+                     /gene="EIF5B"
+                     /gene_synonym="IF2"
+     Protein         1..1220
+                     /product="Eukaryotic translation initiation factor 5B"
+                     /EC_number="3.6.5.3"
+                     /note="eIF-5B; Translation initiation factor IF-2"
+                     /UniProtKB_evidence="Evidence at transcript level"
+     Region          1..1220
+                     /region_name="Mature chain"
+                     /note="Eukaryotic translation initiation factor 5B.
+                     /id=PRO_0000354072."
+     Region          1..417
+                     /region_name="Region of interest in the sequence"
+                     /note="Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          1..21
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          32..56
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Site            66
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:O60841."
+     Region          78..149
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Site            107
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:O60841."
+     Site            113
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:O60841."
+     Region          <118..469
+                     /region_name="PTZ00121"
+                     /note="MAEBL; Provisional"
+                     /db_xref="CDD:173412"
+     Site            134
+                     /site_type="phosphorylation"
+                     /note="Phosphotyrosine.
+                     /evidence=ECO:0000250|UniProtKB:O60841."
+     Site            135
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:O60841."
+     Site            137
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:O60841."
+     Region          156..199
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Site            164
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:O60841."
+     Site            171
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:O60841."
+     Site            182
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:O60841."
+     Site            183
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:O60841."
+     Site            186
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:O60841."
+     Site            190
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:O60841."
+     Region          212..284
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Site            214
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:O60841."
+     Site            222
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:O60841."
+     Region          300..339
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Site            301
+                     /site_type="phosphorylation"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000250|UniProtKB:O60841."
+     Region          347..417
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          430..608
+                     /region_name="Region of interest in the sequence"
+                     /note="Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          436..459
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Site            438
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:O60841."
+     Region          488..512
+                     /region_name="Compositionally biased region"
+                     /note="Acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Site            498
+                     /site_type="phosphorylation"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000250|UniProtKB:O60841."
+     Region          513..529
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          530..569
+                     /region_name="Compositionally biased region"
+                     /note="Acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Site            547
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:O60841."
+     Site            557
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:B2GUV7."
+     Site            560
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:O60841."
+     Region          570..608
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Site            588
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:O60841."
+     Site            589
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:O60841."
+     Site            591
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:O60841."
+     Site            595
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:O60841."
+     Region          627..1202
+                     /region_name="PRK04004"
+                     /note="translation initiation factor IF-2; Validated;
+                     cl44330"
+                     /db_xref="CDD:457675"
+     Region          629..846
+                     /region_name="Domain"
+                     /note="tr-type G.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU01059."
+     Region          638..645
+                     /region_name="Region of interest in the sequence"
+                     /note="G1.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU01059."
+     Region          663..667
+                     /region_name="Region of interest in the sequence"
+                     /note="G2.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU01059."
+     Region          702..705
+                     /region_name="Region of interest in the sequence"
+                     /note="G3.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU01059."
+     Site            706
+                     /site_type="active"
+                     /note="/evidence=ECO:0000250|UniProtKB:O60841."
+     Region          756..759
+                     /region_name="Region of interest in the sequence"
+                     /note="G4.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU01059."
+     Region          824..826
+                     /region_name="Region of interest in the sequence"
+                     /note="G5.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU01059."
+     Site            1168
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:O60841."
+ORIGIN      
+        1 mgkkqknkse dstkddidld alaaeiegag aakeqepqks kgkkkkekkk qdfdeddilk
+       61 eleelsleaq gikadretva vkptenneee ftskdkkkkg qkgkkqsfdd ndseeledkd
+      121 skskktakpk vemysgsddd ddfnklpkka kgkaqksnkk wdgseededn skkikersrv
+      181 nssgesgdes deflqsrkgq kknqknkpgp niesgneddd ssfkiktvaq kkaekkerer
+      241 kkrdeekakl rklkekeese tgkkdqskqk esqrkseeet vkskvtldtg vipaseekae
+      301 tptaaeddne gdkkkkdkkk kkgekeekek ekkkgpskat vkamqealak lkeeeerqkr
+      361 eeeerikrle eleakrkeee rleqekrerk kqkekerker lkkegklltk sqreararae
+      421 atlkllqaqg vevpskdslp kkrpiyedkk rkkipqqles kevsesmelc aavevmeqgv
+      481 pekeetpppv epeeeedted aglddweama sdeetekveg ntvhievken peeeeeeeee
+      541 eeedeeseee eeeegesegs egdeedekvs dekdsgktld kkpskemssd seydsdddrt
+      601 keeraydkak rriekrrleh sknvnteklr apiicvlghv dtgktkildk lrhthvqdge
+      661 aggitqqiga tnvpleaine qtkmiknfgr envripgmli idtpghesfs nlrnrgsslc
+      721 diailvvdim hggepqkmkp tnlpkpkkcp fmvalnkidr lydwkkspds dvaatlkkqk
+      781 kntkdefeer akaiivefaq qglnaalfye nkdprtfvsl vptsahtgdg mgsliyllve
+      841 ltqtmlskrl ahceelraqv mevkalpgmg ttidviling rlkegdtiiv pgvegpivtq
+      901 irglllpppm kelrvknqye khkeveaaqg vkilgkdlek tlaglpllva ykedeipvlk
+      961 delihelkqt lnaikleekg vyvqastlgs lealleflkt sevpyagini gpvhkkdvmk
+     1021 asvmlehdpq yavilafdvr ierdaqemad slgvrifsae iiyhlfdaft kyrqdykkqk
+     1081 qekfkhiavf pckmkilpqy ifnsrdpivm gvtveagqvk qgtpmcvpsk nfvdigivts
+     1141 ieinhkqvdv akkgqevcvk iepipgespk mfgrhfeatd ilvskisrqs idalkdwfrd
+     1201 emqksdwqli velkkvfeii
+//
+

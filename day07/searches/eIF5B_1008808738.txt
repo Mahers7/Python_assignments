@@ -1,0 +1,369 @@
+LOCUS       IF2P_CHATD              1116 aa            linear   PLN 29-MAY-2024
+DEFINITION  RecName: Full=Eukaryotic translation initiation factor 5B;
+            Short=eIF-5B; AltName: Full=Translation initiation factor IF-2.
+ACCESSION   G0S8G9
+VERSION     G0S8G9.2
+DBSOURCE    UniProtKB: locus IF2P_CHATD, accession G0S8G9;
+            class: standard.
+            created: Mar 16, 2016.
+            sequence updated: Mar 16, 2016.
+            annotation updated: May 29, 2024.
+            xrefs: GL988041.1, EGS21143.1, XP_006693439.1, 4N3G_A, 4N3N_A,
+            4NCL_A, 4NCL_B, 4NCN_A, 4NCN_B, 4TMT_A, 4TMT_B, 4TMV_A, 4TMV_B,
+            4TMW_A, 4TMW_B, 4TMX_A, 4TMX_B, 4TMZ_A, 4TMZ_B, 4TN1_A, 4TN1_B
+            xrefs (non-sequence databases): PDBsum:4N3G, PDBsum:4N3N,
+            PDBsum:4NCL, PDBsum:4NCN, PDBsum:4TMT, PDBsum:4TMV, PDBsum:4TMW,
+            PDBsum:4TMX, PDBsum:4TMZ, PDBsum:4TN1, AlphaFoldDB:G0S8G9,
+            SMR:G0S8G9, STRING:759272.G0S8G9, GeneID:18257022,
+            KEGG:cthr:CTHT_0029840, eggNOG:KOG1144, HOGENOM:CLU_002656_1_0_1,
+            OrthoDB:169393at2759, Proteomes:UP000008066, GO:0005739,
+            GO:0005525, GO:0003924, GO:0046872, GO:0003743, CDD:cd03703,
+            CDD:cd01887, Gene3D:3.40.50.300, Gene3D:2.40.30.10,
+            Gene3D:3.40.50.10050, InterPro:IPR029459, InterPro:IPR027417,
+            InterPro:IPR005225, InterPro:IPR000795, InterPro:IPR015760,
+            InterPro:IPR023115, InterPro:IPR036925, InterPro:IPR009000,
+            NCBIfam:TIGR00231, PANTHER:PTHR43381:SF4, PANTHER:PTHR43381,
+            Pfam:PF00009, Pfam:PF14578, Pfam:PF11987, PRINTS:PR00315,
+            SUPFAM:SSF52156, SUPFAM:SSF52540, SUPFAM:SSF50447, PROSITE:PS51722
+KEYWORDS    3D-structure; Coiled coil; Cytoplasm; GTP-binding; Hydrolase;
+            Initiation factor; Magnesium; Metal-binding; Nucleotide-binding;
+            Protein biosynthesis; Reference proteome.
+SOURCE      Thermochaetoides thermophila DSM 1495
+  ORGANISM  Thermochaetoides thermophila DSM 1495
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Sordariomycetes; Sordariomycetidae; Sordariales; Chaetomiaceae;
+            Thermochaetoides.
+REFERENCE   1  (residues 1 to 1116)
+  AUTHORS   Amlacher,S., Sarges,P., Flemming,D., van Noort,V., Kunze,R.,
+            Devos,D.P., Arumugam,M., Bork,P. and Hurt,E.
+  TITLE     Insight into structure and assembly of the nuclear pore complex by
+            utilizing the genome of a eukaryotic thermophile
+  JOURNAL   Cell 146 (2), 277-289 (2011)
+   PUBMED   21784248
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].;
+            STRAIN=DSM 1495 / CBS 144.50 / IMI 039719
+REFERENCE   2  (residues 1 to 1116)
+  AUTHORS   Kuhle,B. and Ficner,R.
+  TITLE     eIF5B employs a novel domain release mechanism to catalyze
+            ribosomal subunit joining
+  JOURNAL   EMBO J 33 (10), 1177-1191 (2014)
+   PUBMED   24686316
+  REMARK    X-RAY CRYSTALLOGRAPHY (1.87 ANGSTROMS) OF 517-970 IN COMPLEX WITH
+            GDP, AND FUNCTION.
+REFERENCE   3  (residues 1 to 1116)
+  AUTHORS   Kuhle,B. and Ficner,R.
+  TITLE     A monovalent cation acts as structural and catalytic cofactor in
+            translational GTPases
+  JOURNAL   EMBO J 33 (21), 2547-2563 (2014)
+   PUBMED   25225612
+  REMARK    X-RAY CRYSTALLOGRAPHY (1.50 ANGSTROMS) OF 517-858 IN COMPLEXES WITH
+            GTP; MAGNESIUM; POTASSIUM AND SODIUM, COFACTOR, MUTAGENESIS OF
+            ASP-533, FUNCTION, AND CATALYTIC ACTIVITY.
+COMMENT     [FUNCTION] Plays a role in translation initiation. Translational
+            GTPase that catalyzes the joining of the 40S and 60S subunits to
+            form the 80S initiation complex with the initiator methionine-tRNA
+            in the P-site base paired to the start codon. GTP binding and
+            hydrolysis induces conformational changes in the enzyme that
+            renders it active for productive interactions with the ribosome.
+            The release of the enzyme after formation of the initiation complex
+            is a prerequisite to form elongation-competent ribosomes.
+            {ECO:0000269|PubMed:24686316, ECO:0000269|PubMed:25225612}.
+            [CATALYTIC ACTIVITY] Reaction=GTP + H2O = GDP + H(+) + phosphate;
+            Xref=Rhea:RHEA:19669, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+            ChEBI:CHEBI:37565, ChEBI:CHEBI:43474, ChEBI:CHEBI:58189;
+            EC=3.6.5.3; Evidence={ECO:0000269|PubMed:25225612}.
+            [COFACTOR] Name=Na(+); Xref=ChEBI:CHEBI:29101;
+            Evidence={ECO:0000269|PubMed:25225612}; Name=K(+);
+            Xref=ChEBI:CHEBI:29103; Evidence={ECO:0000269|PubMed:25225612};
+            Note=Binds 1 monovalent cation per monomer in the active site,
+            which can be sodium or potassium. This structural cofactor
+            stabilizes the GTP-bound 'on' state, and may also act as a
+            transition state stabilizer of the hydrolysis reaction.
+            {ECO:0000269|PubMed:25225612}.
+            [SUBCELLULAR LOCATION] Cytoplasm {ECO:0000250|UniProtKB:P39730}.
+            [SIMILARITY] Belongs to the TRAFAC class translation factor GTPase
+            superfamily. Classic translation factor GTPase family. IF-2
+            subfamily. {ECO:0000305}.
+            [SEQUENCE CAUTION] Sequence=EGS21143.1; Type=Erroneous gene model
+            prediction; Evidence={ECO:0000305}.
+FEATURES             Location/Qualifiers
+     source          1..1116
+                     /organism="Thermochaetoides thermophila DSM 1495"
+                     /db_xref="taxon:759272"
+     gene            1..1116
+                     /locus_tag="CTHT_0029840"
+     Protein         1..1116
+                     /product="Eukaryotic translation initiation factor 5B"
+                     /EC_number="3.6.5.3"
+                     /note="eIF-5B; Translation initiation factor IF-2"
+                     /UniProtKB_evidence="Evidence at protein level"
+     Region          1..1116
+                     /region_name="Mature chain"
+                     /note="Eukaryotic translation initiation factor 5B.
+                     /id=PRO_0000435808."
+     Region          1..513
+                     /region_name="Region of interest in the sequence"
+                     /note="Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          1..17
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          95..166
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          216..296
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          308..390
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          414..429
+                     /region_name="Compositionally biased region"
+                     /note="Acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          430..478
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          488..513
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          518..1102
+                     /region_name="PRK04004"
+                     /note="translation initiation factor IF-2; Validated;
+                     cl44330"
+                     /db_xref="CDD:457675"
+     Region          518..520
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          521..742
+                     /region_name="Domain"
+                     /note="tr-type G.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU01059."
+     Region          525..531
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          530..537
+                     /region_name="Region of interest in the sequence"
+                     /note="G1.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU01059."
+     Site            533
+                     /site_type="mutagenized"
+                     /note="D->A,R: Reduces GTPase activity 13- to 15-fold.
+                     /evidence=ECO:0000269|PubMed:25225612."
+     Site            533
+                     /site_type="mutagenized"
+                     /note="D->N: No effect on GTPase activity."
+     Region          536..544
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          548..551
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          553..555
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          555..559
+                     /region_name="Region of interest in the sequence"
+                     /note="G2.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU01059."
+     Region          557..559
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4NCL."
+     Region          561..566
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          567..573
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          575..577
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          588..594
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          594..597
+                     /region_name="Region of interest in the sequence"
+                     /note="G3.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU01059."
+     Region          599..601
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          602..611
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          613..620
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          621..623
+                     /region_name="Hydrogen bonded turn"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          627..639
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          643..648
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          648..651
+                     /region_name="Region of interest in the sequence"
+                     /note="G4.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU01059."
+     Region          650..652
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          664..669
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          673..692
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          697..699
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          700..702
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          706..708
+                     /region_name="Hydrogen bonded turn"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          709..714
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          716..718
+                     /region_name="Region of interest in the sequence"
+                     /note="G5.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU01059."
+     Region          717..719
+                     /region_name="Hydrogen bonded turn"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          723..736
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          740..743
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          749..758
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          759..761
+                     /region_name="Hydrogen bonded turn"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          762..775
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          779..784
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          787..792
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          794..798
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          803..807
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          811..813
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4TMV."
+     Region          815..826
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          838..841
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          844..846
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4NCL."
+     Region          848..855
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:4TMX."
+     Region          872..879
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4NCL."
+     Region          880..892
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:4NCL."
+     Region          897..905
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4NCL."
+     Region          907..919
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:4NCL."
+     Region          921..923
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:4NCL."
+     Region          925..930
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4NCL."
+     Region          935..943
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:4NCL."
+     Region          947..953
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4NCL."
+     Region          954..969
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:4NCL."
+     Region          976..979
+                     /region_name="Hydrogen bonded turn"
+                     /note="/evidence=ECO:0007829|PDB:4N3G."
+     Region          984..1010
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4N3N."
+     Region          1014..1020
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4N3N."
+     Region          1022..1024
+                     /region_name="Hydrogen bonded turn"
+                     /note="/evidence=ECO:0007829|PDB:4N3N."
+     Region          1027..1040
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4N3N."
+     Region          1043..1049
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4N3N."
+     Region          1055..1060
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4N3N."
+     Region          1068..1071
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:4N3N."
+     Region          1078..1080
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:4N3N."
+     Region          1084..1093
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:4N3N."
+     Region          1095..1097
+                     /region_name="Hydrogen bonded turn"
+                     /note="/evidence=ECO:0007829|PDB:4N3N."
+     Region          1100..1112
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:4N3N."
+ORIGIN      
+        1 mppkgkknrk nddwdadlge siapvnpaaa apaaaeapaa aekeeeapvg glmalmrknk
+       61 ekrkkkglse dwldgetpeg qapaaapepd lsakqaeean ledewalpdk kgkkggkqqq
+      121 nkkqqqeekk kddeevpeir vltkaekerl kkerekqrkk eqaakkkaag paqpqkaepa
+      181 kpaeeekkpe epapapapap epaaggskkk ipahlrliqk qqeelrrrqe eeqrrleeer
+      241 rrieeeerra eeerkrkeee karkkqkeke kieqlkregk yltkaqreek arnqrmleqm
+      301 raagikiaal eeknkeegaa egekekkekk kpekkrrpnk vdeqkaleea aerarqqaea
+      361 aareaeekar lerekaeaee kakqaaaees vdedweaaae sdkedvpdsw daaasdeeke
+      421 eeeeeeeeee kpapkktekk pepkteekkk aepkkpeakk eevkkpepkk eepkkaeang
+      481 kpatttlptr skeeekpkaa eaekkevaar pkkpvvnkdn lrspiccilg hvdtgktkll
+      541 dkirqtnvqe geaggitqqi gatyfpveai kqktavvnkd gkfefkvpgl liidtpghes
+      601 fsnlrsrgss lcniailvvd imhglepqti eslrllrerk tpfvvalnki drlygwkkie
+      661 nngfresfal qnkavqnefr nrldqvklqf aeqgfnself yenknfaryv slvptsahtg
+      721 egipdmlkli vqlcqermas slmylselqa tvlevkaieg fgvtidvils ngilregdri
+      781 vlcglegpik tniralltpa pmrelrikgq yihhkevkaa qgvkisapgl egaiagsrll
+      841 vvgpdddeee leeevesdlq slfsrvektg kgvsvqastl gslealldfl kdckipvanv
+      901 gigpvykrdv mqcgimleka pdyavmlcfd vkvdkeaqqy adengikift adiiyhlfdq
+      961 ftkhmqeqle kkkeeskmla vfpcvlnpva vfnktnpivv gvdvvdgqlk lntpiaavkm
+     1021 npttgqkeii slgrvtgier dhkplqvckk gqpavaikie mgghqpaygr hldekdvlys
+     1081 hisrasidvl kqfyrdvvtt dewqliiklk svfdvq
+//
+

@@ -1,0 +1,2 @@
+This ncbi.py tool will let you search any proteins you want in the NCBI database by writing the name of the protein at the first and then write number of matches you want to download.
+for example i did it for a protein called eif5b (python ncbi.py eIF5B 3). then when you run this it will save each results in a one file included all of the information and another file that show the date and the name of the protein and the the number of matches you decide and total results.

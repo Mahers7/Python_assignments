@@ -1,0 +1,908 @@
+LOCUS       IF2P_HUMAN              1220 aa            linear   PRI 29-MAY-2024
+DEFINITION  RecName: Full=Eukaryotic translation initiation factor 5B;
+            Short=eIF-5B; AltName: Full=Translation initiation factor IF-2.
+ACCESSION   O60841
+VERSION     O60841.4
+DBSOURCE    UniProtKB: locus IF2P_HUMAN, accession O60841;
+            class: standard.
+            extra accessions:O95805,Q53RV7,Q53SI8,Q9UF81,Q9UMN7
+            created: Dec 15, 1998.
+            sequence updated: Nov 24, 2009.
+            annotation updated: May 29, 2024.
+            xrefs: AJ006776.1, CAB44357.1, AF078035.1, AAD16006.1, AC018690.5,
+            AAY24313.1, AC079447.4, AAX93258.1, AB018284.1, BAA34461.2,
+            AL133563.1, CAB63717.1, AJ006412.1, CAA07018.1, T43483,
+            NP_056988.3, 7TQL_1
+            xrefs (non-sequence databases): CCDS:CCDS42721.1, PDBsum:7TQL,
+            AlphaFoldDB:O60841, EMDB:EMD-26067, SMR:O60841, BioGRID:115024,
+            IntAct:O60841, MINT:O60841, STRING:9606.ENSP00000289371,
+            ChEMBL:CHEMBL4105852, GlyGen:O60841, iPTMnet:O60841,
+            MetOSite:O60841, PhosphoSitePlus:O60841, SwissPalm:O60841,
+            BioMuta:EIF5B, EPD:O60841, jPOST:O60841, MassIVE:O60841,
+            MaxQB:O60841, PaxDb:9606-ENSP00000289371, PeptideAtlas:O60841,
+            ProteomicsDB:49628, Pumba:O60841, Antibodypedia:32818, DNASU:9669,
+            Ensembl:ENST00000289371.11, Ensembl:ENSP00000289371.5,
+            Ensembl:ENSG00000158417.12, GeneID:9669, KEGG:hsa:9669,
+            MANE-Select:ENST00000289371.11, UCSC:uc002tab.4, AGR:HGNC:30793,
+            CTD:9669, DisGeNET:9669, GeneCards:EIF5B, HGNC:30793,
+            HPA:ENSG00000158417, MIM:606086, neXtProt:NX_O60841,
+            OpenTargets:ENSG00000158417, PharmGKB:PA134864457,
+            VEuPathDB:HostDB:ENSG00000158417, eggNOG:KOG1144,
+            GeneTree:ENSGT00940000162583, HOGENOM:CLU_002656_0_1_1,
+            InParanoid:O60841, OMA:EFAVMLC, OrthoDB:169393at2759,
+            PhylomeDB:O60841, TreeFam:TF101535, BRENDA:3.6.5.3,
+            PathwayCommons:O60841, Reactome:R-HSA-72706, SignaLink:O60841,
+            SIGNOR:O60841, BioGRID-ORCS:9669, ChiTaRS:EIF5B, GeneWiki:EIF5B,
+            GenomeRNAi:9669, Pharos:O60841, PRO:PR:O60841,
+            Proteomes:UP000005640, RNAct:O60841, Bgee:ENSG00000158417,
+            ExpressionAtlas:O60841, GO:0005737, GO:0005829, GO:0005739,
+            GO:0045202, GO:0005525, GO:0003924, GO:0046872, GO:0003723,
+            GO:0003743, GO:0000049, GO:0006446, GO:0042255, GO:0006413,
+            CDD:cd03703, CDD:cd16266, CDD:cd01887, Gene3D:3.40.50.300,
+            Gene3D:2.40.30.10, Gene3D:3.40.50.10050, InterPro:IPR029459,
+            InterPro:IPR027417, InterPro:IPR005225, InterPro:IPR000795,
+            InterPro:IPR015760, InterPro:IPR023115, InterPro:IPR036925,
+            InterPro:IPR009000, NCBIfam:TIGR00231, PANTHER:PTHR43381:SF4,
+            PANTHER:PTHR43381, Pfam:PF00009, Pfam:PF14578, Pfam:PF11987,
+            PRINTS:PR00315, SUPFAM:SSF52156, SUPFAM:SSF52540, SUPFAM:SSF50447,
+            PROSITE:PS51722
+KEYWORDS    3D-structure; Cytoplasm; Direct protein sequencing; GTP-binding;
+            Hydrolase; Initiation factor; Metal-binding; Nucleotide-binding;
+            Phosphoprotein; Protein biosynthesis; Reference proteome.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 1220)
+  AUTHORS   Wilson,S.A., Sieiro-Vazquez,C., Edwards,N.J., Iourin,O.,
+            Byles,E.D., Kotsopoulou,E., Adamson,C.S., Kingsman,S.M.,
+            Kingsman,A.J. and Martin-Rendon,E.
+  TITLE     Cloning and characterization of hIF2, a human homologue of
+            bacterial translation initiation factor 2, and its interaction with
+            HIV-1 matrix
+  JOURNAL   Biochem J 342 (Pt 1) (Pt 1), 97-103 (1999)
+   PUBMED   10432305
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA], AND VARIANT THR-522.;
+            TISSUE=Cervix carcinoma
+REFERENCE   2  (residues 1 to 1220)
+  AUTHORS   Lee,J.H., Choi,S.K., Roll-Mecak,A., Burley,S.K. and Dever,T.E.
+  TITLE     Universal conservation in translation initiation revealed by human
+            and archaeal homologs of bacterial translation initiation factor
+            IF2
+  JOURNAL   Proc Natl Acad Sci U S A 96 (8), 4342-4347 (1999)
+   PUBMED   10200264
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA], MUTAGENESIS OF VAL-640; HIS-706 AND
+            ASP-759, CHARACTERIZATION, AND VARIANT THR-522.;
+            TISSUE=Testis
+REFERENCE   3  (residues 1 to 1220)
+  AUTHORS   Nagase,T., Ishikawa,K., Suyama,M., Kikuno,R., Miyajima,N.,
+            Tanaka,A., Kotani,H., Nomura,N. and Ohara,O.
+  TITLE     Prediction of the coding sequences of unidentified human genes. XI.
+            The complete sequences of 100 new cDNA clones from brain which code
+            for large proteins in vitro
+  JOURNAL   DNA Res 5 (5), 277-286 (1998)
+   PUBMED   9872452
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].;
+            TISSUE=Brain
+REFERENCE   4  (residues 1 to 1220)
+  AUTHORS   Hillier,L.W., Graves,T.A., Fulton,R.S., Fulton,L.A., Pepin,K.H.,
+            Minx,P., Wagner-McPherson,C., Layman,D., Wylie,K., Sekhon,M.,
+            Becker,M.C., Fewell,G.A., Delehaunty,K.D., Miner,T.L., Nash,W.E.,
+            Kremitzki,C., Oddy,L., Du,H., Sun,H., Bradshaw-Cordum,H., Ali,J.,
+            Carter,J., Cordes,M., Harris,A., Isak,A., van Brunt,A., Nguyen,C.,
+            Du,F., Courtney,L., Kalicki,J., Ozersky,P., Abbott,S.,
+            Armstrong,J., Belter,E.A., Caruso,L., Cedroni,M., Cotton,M.,
+            Davidson,T., Desai,A., Elliott,G., Erb,T., Fronick,C., Gaige,T.,
+            Haakenson,W., Haglund,K., Holmes,A., Harkins,R., Kim,K.,
+            Kruchowski,S.S., Strong,C.M., Grewal,N., Goyea,E., Hou,S., Levy,A.,
+            Martinka,S., Mead,K., McLellan,M.D., Meyer,R., Randall-Maher,J.,
+            Tomlinson,C., Dauphin-Kohlberg,S., Kozlowicz-Reilly,A., Shah,N.,
+            Swearengen-Shahid,S., Snider,J., Strong,J.T., Thompson,J.,
+            Yoakum,M., Leonard,S., Pearman,C., Trani,L., Radionenko,M.,
+            Waligorski,J.E., Wang,C., Rock,S.M., Tin-Wollam,A.M., Maupin,R.,
+            Latreille,P., Wendl,M.C., Yang,S.P., Pohl,C., Wallis,J.W.,
+            Spieth,J., Bieri,T.A., Berkowicz,N., Nelson,J.O., Osborne,J.,
+            Ding,L., Meyer,R., Sabo,A., Shotland,Y., Sinha,P., Wohldmann,P.E.,
+            Cook,L.L., Hickenbotham,M.T., Eldred,J., Williams,D., Jones,T.A.,
+            She,X., Ciccarelli,F.D., Izaurralde,E., Taylor,J., Schmutz,J.,
+            Myers,R.M., Cox,D.R., Huang,X., McPherson,J.D., Mardis,E.R.,
+            Clifton,S.W., Warren,W.C., Chinwalla,A.T., Eddy,S.R., Marra,M.A.,
+            Ovcharenko,I., Furey,T.S., Miller,W., Eichler,E.E., Bork,P.,
+            Suyama,M., Torrents,D., Waterston,R.H. and Wilson,R.K.
+  TITLE     Generation and annotation of the DNA sequences of human chromosomes
+            2 and 4
+  JOURNAL   Nature 434 (7034), 724-731 (2005)
+   PUBMED   15815621
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+REFERENCE   5  (residues 1 to 1220)
+  AUTHORS   Bienvenut,W.V., Waridel,P. and Quadroni,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (??-MAR-2009) to UniProtKB
+  REMARK    PROTEIN SEQUENCE OF 9-33; 77-94; 106-122; 180-197; 206-224;
+            285-298; 425-436; 629-644; 653-683; 695-713; 749-757; 766-777;
+            882-902; 1000-1015; 1044-1055; 1096-1120 AND 1175-1185,
+            PHOSPHORYLATION AT SER-190, AND IDENTIFICATION BY MASS
+            SPECTROMETRY.;
+            TISSUE=Cervix carcinoma
+REFERENCE   6  (residues 1 to 1220)
+  AUTHORS   Bechtel,S., Rosenfelder,H., Duda,A., Schmidt,C.P., Ernst,U.,
+            Wellenreuther,R., Mehrle,A., Schuster,C., Bahr,A., Blocker,H.,
+            Heubner,D., Hoerlein,A., Michel,G., Wedler,H., Kohrer,K.,
+            Ottenwalder,B., Poustka,A., Wiemann,S. and Schupp,I.
+  TITLE     The full-ORF clone resource of the German cDNA Consortium
+  JOURNAL   BMC Genomics 8, 399 (2007)
+   PUBMED   17974005
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 89-1220.;
+            TISSUE=Testis
+            Publication Status: Online-Only
+REFERENCE   7  (residues 1 to 1220)
+  AUTHORS   Stanchi,F., Bertocco,E., Toppo,S., Dioguardi,R., Simionati,B.,
+            Cannata,N., Zimbello,R., Lanfranchi,G. and Valle,G.
+  TITLE     Characterization of 16 novel human genes showing high similarity to
+            yeast sequences
+  JOURNAL   Yeast 18 (1), 69-80 (2001)
+   PUBMED   11124703
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA] OF 833-1220.
+REFERENCE   8  (residues 1 to 1220)
+  AUTHORS   Pestova,T.V., Lomakin,I.B., Lee,J.H., Choi,S.K., Dever,T.E. and
+            Hellen,C.U.
+  TITLE     The joining of ribosomal subunits in eukaryotes requires eIF5B
+  JOURNAL   Nature 403 (6767), 332-335 (2000)
+   PUBMED   10659855
+  REMARK    FUNCTION, CATALYTIC ACTIVITY, AND BIOPHYSICOCHEMICAL PROPERTIES.
+REFERENCE   9  (residues 1 to 1220)
+  AUTHORS   Marintchev,A., Kolupaeva,V.G., Pestova,T.V. and Wagner,G.
+  TITLE     Mapping the binding interface between human eukaryotic initiation
+            factors 1A and 5B: a new interaction between old partners
+  JOURNAL   Proc Natl Acad Sci U S A 100 (4), 1535-1540 (2003)
+   PUBMED   12569173
+  REMARK    INTERACTION WITH EIF1AX.
+REFERENCE   10 (residues 1 to 1220)
+  AUTHORS   Olsen,J.V., Blagoev,B., Gnad,F., Macek,B., Kumar,C., Mortensen,P.
+            and Mann,M.
+  TITLE     Global, in vivo, and site-specific phosphorylation dynamics in
+            signaling networks
+  JOURNAL   Cell 127 (3), 635-648 (2006)
+   PUBMED   17081983
+  REMARK    PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-107; SER-113; SER-164
+            AND SER-214, AND IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE
+            ANALYSIS].;
+            TISSUE=Cervix carcinoma
+REFERENCE   11 (residues 1 to 1220)
+  AUTHORS   Giorgianni,F., Zhao,Y., Desiderio,D.M. and Beranova-Giorgianni,S.
+  TITLE     Toward a global characterization of the phosphoproteome in prostate
+            cancer cells: identification of phosphoproteins in the LNCaP cell
+            line
+  JOURNAL   Electrophoresis 28 (12), 2027-2034 (2007)
+   PUBMED   17487921
+  REMARK    PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-214, AND
+            IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].;
+            TISSUE=Prostate cancer
+REFERENCE   12 (residues 1 to 1220)
+  AUTHORS   Yu,L.R., Zhu,Z., Chan,K.C., Issaq,H.J., Dimitrov,D.S. and
+            Veenstra,T.D.
+  TITLE     Improved titanium dioxide enrichment of phosphopeptides from HeLa
+            cells and high confident phosphopeptide identification by
+            cross-validation of MS/MS and MS/MS/MS spectra
+  JOURNAL   J Proteome Res 6 (11), 4150-4162 (2007)
+   PUBMED   17924679
+  REMARK    PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-214, AND
+            IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].;
+            TISSUE=Cervix carcinoma
+REFERENCE   13 (residues 1 to 1220)
+  AUTHORS   Carrascal,M., Ovelleiro,D., Casas,V., Gay,M. and Abian,J.
+  TITLE     Phosphorylation analysis of primary human T lymphocytes using
+            sequential IMAC and titanium oxide enrichment
+  JOURNAL   J Proteome Res 7 (12), 5167-5176 (2008)
+   PUBMED   19367720
+  REMARK    PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-214, AND
+            IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].;
+            TISSUE=T-cell
+REFERENCE   14 (residues 1 to 1220)
+  AUTHORS   Zahedi,R.P., Lewandrowski,U., Wiesner,J., Wortelkamp,S.,
+            Moebius,J., Schutz,C., Walter,U., Gambaryan,S. and Sickmann,A.
+  TITLE     Phosphoproteome of resting human platelets
+  JOURNAL   J Proteome Res 7 (2), 526-534 (2008)
+   PUBMED   18088087
+  REMARK    IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].;
+            TISSUE=Platelet
+REFERENCE   15 (residues 1 to 1220)
+  AUTHORS   Dephoure,N., Zhou,C., Villen,J., Beausoleil,S.A., Bakalarski,C.E.,
+            Elledge,S.J. and Gygi,S.P.
+  TITLE     A quantitative atlas of mitotic phosphorylation
+  JOURNAL   Proc Natl Acad Sci U S A 105 (31), 10762-10767 (2008)
+   PUBMED   18669648
+  REMARK    PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-107; SER-113;
+            TYR-134; SER-135; SER-137; SER-164; SER-182; SER-183; SER-186;
+            SER-190; THR-301; SER-547; SER-560; SER-588 AND SER-595, AND
+            IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].;
+            TISSUE=Cervix carcinoma
+REFERENCE   16 (residues 1 to 1220)
+  AUTHORS   Han,G., Ye,M., Zhou,H., Jiang,X., Feng,S., Jiang,X., Tian,R.,
+            Wan,D., Zou,H. and Gu,J.
+  TITLE     Large-scale phosphoproteome analysis of human liver tissue by
+            enrichment and fractionation of phosphopeptides with strong anion
+            exchange chromatography
+  JOURNAL   Proteomics 8 (7), 1346-1361 (2008)
+   PUBMED   18318008
+  REMARK    PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-107; SER-113 AND
+            SER-164, AND IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE
+            ANALYSIS].;
+            TISSUE=Liver
+REFERENCE   17 (residues 1 to 1220)
+  AUTHORS   de Breyne,S., Bonderoff,J.M., Chumakov,K.M., Lloyd,R.E. and
+            Hellen,C.U.
+  TITLE     Cleavage of eukaryotic initiation factor eIF5B by enterovirus 3C
+            proteases
+  JOURNAL   Virology 378 (1), 118-122 (2008)
+   PUBMED   18572216
+  REMARK    PROTEOLYTIC CLEAVAGE (MICROBIAL INFECTION).
+REFERENCE   18 (residues 1 to 1220)
+  AUTHORS   Gauci,S., Helbig,A.O., Slijper,M., Krijgsveld,J., Heck,A.J. and
+            Mohammed,S.
+  TITLE     Lys-N and trypsin cover complementary parts of the phosphoproteome
+            in a refined SCX-based approach
+  JOURNAL   Anal Chem 81 (11), 4493-4501 (2009)
+   PUBMED   19413330
+  REMARK    IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+REFERENCE   19 (residues 1 to 1220)
+  AUTHORS   Mayya,V., Lundgren,D.H., Hwang,S.I., Rezaul,K., Wu,L., Eng,J.K.,
+            Rodionov,V. and Han,D.K.
+  TITLE     Quantitative phosphoproteomic analysis of T cell receptor signaling
+            reveals system-wide modulation of protein-protein interactions
+  JOURNAL   Sci Signal 2 (84), ra46 (2009)
+   PUBMED   19690332
+  REMARK    PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-113; TYR-134;
+            SER-135; SER-137; SER-164; SER-182; SER-183; SER-186 AND SER-214,
+            AND IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].;
+            TISSUE=Leukemic T-cell
+            Publication Status: Online-Only
+REFERENCE   20 (residues 1 to 1220)
+  AUTHORS   Olsen,J.V., Vermeulen,M., Santamaria,A., Kumar,C., Miller,M.L.,
+            Jensen,L.J., Gnad,F., Cox,J., Jensen,T.S., Nigg,E.A., Brunak,S. and
+            Mann,M.
+  TITLE     Quantitative phosphoproteomics reveals widespread full
+            phosphorylation site occupancy during mitosis
+  JOURNAL   Sci Signal 3 (104), ra3 (2010)
+   PUBMED   20068231
+  REMARK    PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-113; SER-135;
+            SER-137; SER-164; SER-182; SER-186; SER-190; SER-214; THR-301;
+            SER-588; SER-589; SER-591 AND SER-595, AND IDENTIFICATION BY MASS
+            SPECTROMETRY [LARGE SCALE ANALYSIS].;
+            TISSUE=Cervix carcinoma
+            Publication Status: Online-Only
+REFERENCE   21 (residues 1 to 1220)
+  AUTHORS   Rigbolt,K.T., Prokhorova,T.A., Akimov,V., Henningsen,J.,
+            Johansen,P.T., Kratchmarova,I., Kassem,M., Mann,M., Olsen,J.V. and
+            Blagoev,B.
+  TITLE     System-wide temporal characterization of the proteome and
+            phosphoproteome of human embryonic stem cell differentiation
+  JOURNAL   Sci Signal 4 (164), rs3 (2011)
+   PUBMED   21406692
+  REMARK    PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-107; SER-113;
+            TYR-134; SER-135; SER-137; SER-164; SER-171; SER-214 AND THR-498,
+            AND IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+            Publication Status: Online-Only
+REFERENCE   22 (residues 1 to 1220)
+  AUTHORS   Zhou,H., Di Palma,S., Preisinger,C., Peng,M., Polat,A.N., Heck,A.J.
+            and Mohammed,S.
+  TITLE     Toward a comprehensive characterization of a human cancer cell
+            phosphoproteome
+  JOURNAL   J Proteome Res 12 (1), 260-271 (2013)
+   PUBMED   23186163
+  REMARK    PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-66; SER-107; SER-113;
+            SER-135; SER-137; SER-164; SER-186; SER-214; SER-222; SER-438 AND
+            SER-1168, AND IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE
+            ANALYSIS].;
+            TISSUE=Cervix carcinoma, and Erythroleukemia
+REFERENCE   23 (residues 1 to 1220)
+  AUTHORS   Bian,Y., Song,C., Cheng,K., Dong,M., Wang,F., Huang,J., Sun,D.,
+            Wang,L., Ye,M. and Zou,H.
+  TITLE     An enzyme assisted RP-RPLC approach for in-depth analysis of human
+            liver phosphoproteome
+  JOURNAL   J Proteomics 96, 253-262 (2014)
+   PUBMED   24275569
+  REMARK    PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-107; SER-113;
+            SER-135; SER-137; SER-164; SER-182; SER-190 AND SER-214, AND
+            IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].;
+            TISSUE=Liver
+REFERENCE   24 (residues 1 to 1220)
+  AUTHORS   Lin,K.Y., Nag,N., Pestova,T.V. and Marintchev,A.
+  TITLE     Human eIF5 and eIF1A Compete for Binding to eIF5B
+  JOURNAL   Biochemistry 57 (40), 5910-5920 (2018)
+   PUBMED   30211544
+  REMARK    INTERACTION WITH EIF5 AND EIF1AX.
+REFERENCE   25 (residues 1 to 1220)
+  AUTHORS   Lapointe,C.P., Grosely,R., Sokabe,M., Alvarado,C., Wang,J.,
+            Montabana,E., Villa,N., Shin,B.S., Dever,T.E., Fraser,C.S.,
+            Fernandez,I.S. and Puglisi,J.D.
+  TITLE     eIF5B and eIF1A reorient initiator tRNA to allow ribosomal subunit
+            joining
+  JOURNAL   Nature 607 (7917), 185-190 (2022)
+   PUBMED   35732735
+  REMARK    STRUCTURE BY ELECTRON MICROSCOPY (3.40 ANGSTROMS) OF 602-1219 IN
+            COMPLEX WITH A GTP ANALOG, FUNCTION, CATALYTIC ACTIVITY, PROBABLE
+            ACTIVE SITE, MUTAGENESIS OF HIS-706; ARG-1105; ARG-1174;
+            1188-ARG-GLN-1189; ARG-1199 AND 1218-GLU-ILE-1219, AND INTERACTION
+            WITH EIF1AX.
+REFERENCE   26 (residues 1 to 1220)
+  AUTHORS   Burkard,T.R., Planyavsky,M., Kaupe,I., Breitwieser,F.P.,
+            Burckstummer,T., Bennett,K.L., Superti-Furga,G. and Colinge,J.
+  TITLE     Initial characterization of the human central proteome
+  JOURNAL   BMC Syst Biol 5, 17 (2011)
+   PUBMED   21269460
+  REMARK    VARIANT [LARGE SCALE ANALYSIS] THR-522, AND IDENTIFICATION BY MASS
+            SPECTROMETRY [LARGE SCALE ANALYSIS].
+            Publication Status: Online-Only
+COMMENT     On or before Nov 24, 2009 this sequence version replaced
+            gi:74726610, gi:74740714, O60841.3.
+            [FUNCTION] Plays a role in translation initiation (PubMed:10659855,
+            PubMed:35732735). Ribosome-dependent GTPase that promotes the
+            joining of the 60S ribosomal subunit to the pre-initiation complex
+            to form the 80S initiation complex with the initiator
+            methionine-tRNA in the P-site base paired to the start codon
+            (PubMed:10659855, PubMed:35732735). Together with eIF1A (EIF1AX),
+            actively orients the initiator methionine-tRNA in a conformation
+            that allows 60S ribosomal subunit joining to form the 80S
+            initiation complex (PubMed:12569173, PubMed:35732735). Is released
+            after formation of the 80S initiation complex (PubMed:35732735).
+            Its GTPase activity is not essential for ribosomal subunits
+            joining, but GTP hydrolysis is needed for eIF1A (EIF1AX) ejection
+            quickly followed by EIF5B release to form elongation-competent
+            ribosomes (PubMed:10659855, PubMed:35732735). In contrast to its
+            procaryotic homolog, does not promote recruitment of Met-rRNA to
+            the small ribosomal subunit (PubMed:10659855).
+            {ECO:0000269|PubMed:10659855, ECO:0000269|PubMed:12569173,
+            ECO:0000269|PubMed:35732735}.
+            [CATALYTIC ACTIVITY] Reaction=GTP + H2O = GDP + H(+) + phosphate;
+            Xref=Rhea:RHEA:19669, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+            ChEBI:CHEBI:37565, ChEBI:CHEBI:43474, ChEBI:CHEBI:58189;
+            EC=3.6.5.3; Evidence={ECO:0000269|PubMed:10659855,
+            ECO:0000305|PubMed:35732735}; PhysiologicalDirection=left-to-right;
+            Xref=Rhea:RHEA:19670; Evidence={ECO:0000269|PubMed:10659855,
+            ECO:0000305|PubMed:35732735}.
+            [COFACTOR] Name=a monovalent cation; Xref=ChEBI:CHEBI:60242;
+            Evidence={ECO:0000250|UniProtKB:G0S8G9}; Note=Binds 1 monovalent
+            cation per monomer in the active site. Structural cofactor that
+            stabilizes the GTP-bound 'on' state. May also act as a transition
+            state stabilizer of the hydrolysis reaction.
+            {ECO:0000250|UniProtKB:G0S8G9}.
+            [BIOPHYSICOCHEMICAL PROPERTIES] Kinetic parameters: Vmax=1
+            pmol/min/ug enzyme {ECO:0000269|PubMed:10659855}; Note=Obtained in
+            the presence of 40S and 60S ribosomal subunits. 60S ribosomal
+            subunit is necessary for enzyme activation, while 40S ribosomal
+            subunit is not.
+            [SUBUNIT] Interacts through its C-terminal domain (CTD) with the
+            CTD of eIF1A (EIF1AX) or with the CTD of EIF5 (mutually exclusive)
+            through a common binding site (PubMed:30211544). Interacts with
+            eIF1A (EIF1AX) from the location of the start codon by the 43S
+            complex until the formation of the 80S complex (PubMed:12569173,
+            PubMed:35732735). Interacts with ANXA5 in a calcium and
+            phospholipid-dependent manner (By similarity).
+            {ECO:0000250|UniProtKB:B2GUV7, ECO:0000269|PubMed:35732735}.
+            [INTERACTION] O60841; O14602: EIF1AY; NbExp=2; IntAct=EBI-928530,
+            EBI-286439; O60841; P14921: ETS1; NbExp=2; IntAct=EBI-928530,
+            EBI-913209; O60841; P28799: GRN; NbExp=3; IntAct=EBI-928530,
+            EBI-747754; O60841; O43933: PEX1; NbExp=3; IntAct=EBI-928530,
+            EBI-988601; O60841; O76024: WFS1; NbExp=3; IntAct=EBI-928530,
+            EBI-720609.
+            [SUBCELLULAR LOCATION] Cytoplasm {ECO:0000250|UniProtKB:Q05D44}.
+            [PTM] (Microbial infection) Cleaved and inactivated by the protease
+            3C of poliovirus, Coxsackievirus B3 and Human rhinovirus 14,
+            allowing the virus to shutoff the host cell translation.
+            {ECO:0000269|PubMed:18572216}.
+            [SIMILARITY] Belongs to the TRAFAC class translation factor GTPase
+            superfamily. Classic translation factor GTPase family. IF-2
+            subfamily. {ECO:0000305}.
+            [SEQUENCE CAUTION] Sequence=BAA34461.2; Type=Erroneous initiation;
+            Note=Truncated N-terminus.; Evidence={ECO:0000305}.
+FEATURES             Location/Qualifiers
+     source          1..1220
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     gene            1..1220
+                     /gene="EIF5B"
+                     /gene_synonym="IF2"
+                     /gene_synonym="KIAA0741"
+     Protein         1..1220
+                     /product="Eukaryotic translation initiation factor 5B"
+                     /EC_number="3.6.5.3"
+                     /note="eIF-5B; Translation initiation factor IF-2"
+                     /UniProtKB_evidence="Evidence at protein level"
+     Region          1..1220
+                     /region_name="Mature chain"
+                     /note="Eukaryotic translation initiation factor 5B.
+                     /id=PRO_0000137294."
+     Region          1..417
+                     /region_name="Region of interest in the sequence"
+                     /note="Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          1..21
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          32..56
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          64
+                     /region_name="Conflict"
+                     /note="E -> G (in Ref. 3; BAA34461).
+                     /evidence=ECO:0000305."
+     Site            66
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163."
+     Region          78..149
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          92
+                     /region_name="Conflict"
+                     /note="T -> I (in Ref. 1; CAB44357).
+                     /evidence=ECO:0000305."
+     Site            107
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:17081983,
+                     ECO:0007744|PubMed:18318008, ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:21406692, ECO:0007744|PubMed:23186163,
+                     ECO:0007744|PubMed:24275569."
+     Site            113
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:17081983,
+                     ECO:0007744|PubMed:18318008, ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:19690332, ECO:0007744|PubMed:20068231,
+                     ECO:0007744|PubMed:21406692, ECO:0007744|PubMed:23186163,
+                     ECO:0007744|PubMed:24275569."
+     Site            134
+                     /site_type="phosphorylation"
+                     /note="Phosphotyrosine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:19690332, ECO:0007744|PubMed:21406692."
+     Site            135
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:19690332, ECO:0007744|PubMed:20068231,
+                     ECO:0007744|PubMed:21406692, ECO:0007744|PubMed:23186163,
+                     ECO:0007744|PubMed:24275569."
+     Site            137
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:19690332, ECO:0007744|PubMed:20068231,
+                     ECO:0007744|PubMed:21406692, ECO:0007744|PubMed:23186163,
+                     ECO:0007744|PubMed:24275569."
+     Region          156..199
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Site            164
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:17081983,
+                     ECO:0007744|PubMed:18318008, ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:19690332, ECO:0007744|PubMed:20068231,
+                     ECO:0007744|PubMed:21406692, ECO:0007744|PubMed:23186163,
+                     ECO:0007744|PubMed:24275569."
+     Site            171
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:21406692."
+     Region          180
+                     /region_name="Conflict"
+                     /note="I -> M (in Ref. 2; AAD16006).
+                     /evidence=ECO:0000305."
+     Site            182
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:19690332, ECO:0007744|PubMed:20068231,
+                     ECO:0007744|PubMed:24275569."
+     Site            183
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:19690332."
+     Site            186
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:19690332, ECO:0007744|PubMed:20068231,
+                     ECO:0007744|PubMed:23186163."
+     Site            190
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine. /evidence=ECO:0000269|Ref.5,
+                     ECO:0007744|PubMed:18669648, ECO:0007744|PubMed:20068231,
+                     ECO:0007744|PubMed:24275569."
+     Region          212..284
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Site            214
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:17081983,
+                     ECO:0007744|PubMed:17487921, ECO:0007744|PubMed:17924679,
+                     ECO:0007744|PubMed:19367720, ECO:0007744|PubMed:19690332,
+                     ECO:0007744|PubMed:20068231, ECO:0007744|PubMed:21406692,
+                     ECO:0007744|PubMed:23186163, ECO:0007744|PubMed:24275569."
+     Site            222
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163."
+     Region          256
+                     /region_name="Conflict"
+                     /note="K -> R (in Ref. 2; AAD16006).
+                     /evidence=ECO:0000305."
+     Region          300..339
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Site            301
+                     /site_type="phosphorylation"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:20068231."
+     Region          337
+                     /region_name="Variant"
+                     /note="S -> G (in dbSNP:rs10642). /id=VAR_055954."
+     Region          347..417
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          360
+                     /region_name="Variant"
+                     /note="R -> G (in dbSNP:rs3205296). /id=VAR_055955."
+     Region          430..608
+                     /region_name="Region of interest in the sequence"
+                     /note="Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          436..459
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Site            438
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163."
+     Site            478..479
+                     /site_type="other"
+                     /note="(Microbial infection) Cleavage; by viral protease
+                     3C of poliovirus, Coxsackievirus B3 and Human rhinovirus
+                     14. /evidence=ECO:0000269|PubMed:18572216."
+     Region          488..512
+                     /region_name="Compositionally biased region"
+                     /note="Acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Site            498
+                     /site_type="phosphorylation"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:21406692."
+     Region          513..529
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Region          522
+                     /region_name="Variant"
+                     /note="K -> T (in dbSNP:rs7558074).
+                     /evidence=ECO:0000269|PubMed:10200264,
+                     ECO:0000269|PubMed:10432305, ECO:0007744|PubMed:21269460.
+                     /id=VAR_060587."
+     Region          530..569
+                     /region_name="Compositionally biased region"
+                     /note="Acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Site            547
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648."
+     Region          549
+                     /region_name="Conflict"
+                     /note="E -> V (in Ref. 2; AAD16006).
+                     /evidence=ECO:0000305."
+     Site            557
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:B2GUV7."
+     Site            560
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648."
+     Region          570..608
+                     /region_name="Compositionally biased region"
+                     /note="Basic and acidic residues.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite."
+     Site            588
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:20068231."
+     Site            589
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:20068231."
+     Site            591
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:20068231."
+     Site            595
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:20068231."
+     Region          603..622
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          627..1202
+                     /region_name="PRK04004"
+                     /note="translation initiation factor IF-2; Validated;
+                     cl44330"
+                     /db_xref="CDD:457675"
+     Region          629..846
+                     /region_name="Domain"
+                     /note="tr-type G.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU01059."
+     Region          633..637
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          638..645
+                     /region_name="Region of interest in the sequence"
+                     /note="G1.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU01059."
+     Region          639..646
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Site            640
+                     /site_type="mutagenized"
+                     /note="V->G: Loss of activity in vivo. Retains full
+                     activity in vitro. /evidence=ECO:0000269|PubMed:10200264."
+     Region          647..652
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          661..664
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          663..667
+                     /region_name="Region of interest in the sequence"
+                     /note="G2.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU01059."
+     Region          669
+                     /region_name="Conflict"
+                     /note="G -> W (in Ref. 2; AAD16006).
+                     /evidence=ECO:0000305."
+     Region          676..685
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          699..702
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          702..705
+                     /region_name="Region of interest in the sequence"
+                     /note="G3.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU01059."
+     Site            706
+                     /site_type="active"
+                     /note="/evidence=ECO:0000305|PubMed:35732735."
+     Site            706
+                     /site_type="mutagenized"
+                     /note="H->E: Loss of activity; both in vivo and in vitro.
+                     Loss of EIF5B release from the 80S initiation complex,
+                     certainly due to loss of ability to hydrolyze GTP.
+                     /evidence=ECO:0000269|PubMed:10200264,
+                     ECO:0000269|PubMed:35732735."
+     Site            706
+                     /site_type="mutagenized"
+                     /note="H->Q: Loss of activity in vivo. Partial activity in
+                     vitro. /evidence=ECO:0000269|PubMed:10200264."
+     Region          708..711
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          721..726
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          729..731
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          735..746
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          751..755
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          756..759
+                     /region_name="Region of interest in the sequence"
+                     /note="G4.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU01059."
+     Region          757..759
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Site            759
+                     /site_type="mutagenized"
+                     /note="D->N: Loss of activity; both in vivo and in vitro.
+                     /evidence=ECO:0000269|PubMed:10200264."
+     Region          772..777
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          781..799
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          800..802
+                     /region_name="Hydrogen bonded turn"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          808..811
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          814..816
+                     /region_name="Hydrogen bonded turn"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          818..822
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          824..827
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          824..826
+                     /region_name="Region of interest in the sequence"
+                     /note="G5.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU01059."
+     Region          831..844
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          857..866
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          867..869
+                     /region_name="Hydrogen bonded turn"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          870..879
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          887..890
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          894
+                     /region_name="Conflict"
+                     /note="E -> K (in Ref. 1; CAB44357).
+                     /evidence=ECO:0000305."
+     Region          897..900
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          903..906
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          913..915
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          920..923
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          927..934
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          943..949
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          952..954
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          961..963
+                     /region_name="Hydrogen bonded turn"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          981..987
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          988..1001
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          1005..1013
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          1015..1025
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          1029..1031
+                     /region_name="Hydrogen bonded turn"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          1033..1038
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          1043..1051
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          1055..1061
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          1062..1081
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          1086..1088
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          1092..1096
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          1105..1117
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Site            1105
+                     /site_type="mutagenized"
+                     /note="R->A: Disruption of contacts with the Met-tRNA
+                     acceptor stem; when associated with A-1174.
+                     /evidence=ECO:0000269|PubMed:35732735."
+     Region          1125..1135
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          1138..1143
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          1157..1161
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Site            1168
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163."
+     Region          1173..1175
+                     /region_name="Hydrogen bonded turn"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Site            1174
+                     /site_type="mutagenized"
+                     /note="R->A: Disruption of contacts with the Met-tRNA
+                     acceptor stem; when associated with A-1105.
+                     /evidence=ECO:0000269|PubMed:35732735."
+     Region          1182..1184
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          1188..1195
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Site            1188..1189
+                     /site_type="mutagenized"
+                     /note="RQ->ER: Disruption of contacts with eIF1A (EIF1AX);
+                     when associated with E-1199 and 1218-R-R-1219.
+                     /evidence=ECO:0000269|PubMed:35732735."
+     Region          1199..1202
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Site            1199
+                     /site_type="mutagenized"
+                     /note="R->E: Disruption of contacts with eIF1A (EIF1AX);
+                     when associated with 1188-E-E-1189 and 1218-R-R-1219.
+                     /evidence=ECO:0000269|PubMed:35732735."
+     Region          1209..1214
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Region          1215..1218
+                     /region_name="Hydrogen bonded turn"
+                     /note="/evidence=ECO:0007829|PDB:7TQL."
+     Site            1218..1219
+                     /site_type="mutagenized"
+                     /note="EI->RR: Disruption of contacts with eIF1A (EIF1AX);
+                     when associated with 1188-E-R-1189 and E-1199.
+                     /evidence=ECO:0000269|PubMed:35732735."
+ORIGIN      
+        1 mgkkqknkse dstkddidld alaaeiegag aakeqepqks kgkkkkekkk qdfdeddilk
+       61 eleelsleaq gikadretva vkptenneee ftskdkkkkg qkgkkqsfdd ndseeledkd
+      121 skskktakpk vemysgsddd ddfnklpkka kgkaqksnkk wdgseededn skkikersri
+      181 nssgesgdes deflqsrkgq kknqknkpgp niesgneddd asfkiktvaq kkaekkerer
+      241 kkrdeekakl rklkekeele tgkkdqskqk esqrkfeeet vkskvtvdtg vipaseekae
+      301 tptaaeddne gdkkkkdkkk kkgekeekek ekkkgpskat vkamqealak lkeeeerqkr
+      361 eeeerikrle eleakrkeee rleqekrerk kqkekerker lkkegklltk sqreararae
+      421 atlkllqaqg vevpskdslp kkrpiyedkk rkkipqqles kevsesmelc aavevmeqgv
+      481 pekeetpppv epeeeedted aglddweama sdeetekveg nkvhievken peeeeeeeee
+      541 eeedeeseee eeeegesegs egdeedekvs dekdsgktld kkpskemssd seydsdddrt
+      601 keeraydkak rriekrrleh sknvnteklr apiicvlghv dtgktkildk lrhthvqdge
+      661 aggitqqiga tnvpleaine qtkmiknfdr envripgmli idtpghesfs nlrnrgsslc
+      721 diailvvdim hglepqties inllkskkcp fivalnkidr lydwkkspds dvaatlkkqk
+      781 kntkdefeer akaiivefaq qglnaalfye nkdprtfvsl vptsahtgdg mgsliyllve
+      841 ltqtmlskrl ahceelraqv mevkalpgmg ttidviling rlkegdtiiv pgvegpivtq
+      901 irglllpppm kelrvknqye khkeveaaqg vkilgkdlek tlaglpllva ykedeipvlk
+      961 delihelkqt lnaikleekg vyvqastlgs lealleflkt sevpyagini gpvhkkdvmk
+     1021 asvmlehdpq yavilafdvr ierdaqemad slgvrifsae iiyhlfdaft kyrqdykkqk
+     1081 qeefkhiavf pckikilpqy ifnsrdpivm gvtveagqvk qgtpmcvpsk nfvdigivts
+     1141 ieinhkqvdv akkgqevcvk iepipgespk mfgrhfeatd ilvskisrqs idalkdwfrd
+     1201 emqksdwqli velkkvfeii
+//
+
