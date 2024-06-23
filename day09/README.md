@@ -3,14 +3,14 @@ This Python program provides functionality to analyze DNA sequences from files i
 
 # To find the Longest Repeated Sub-sequence
 Run:
-python analyze.py sequence.fasta --duplicate
+```python analyze.py sequence.fasta --duplicate```
 
 # To find the Longest GC Combination Sequence
 Run:
-python analyze.py sequence.fasta --gc_long
+```python analyze.py sequence.fasta --gc_long```
 
 
 # Requirements needed to run the program:
-pip install requirements.txt
+```pip install requirements.txt```
 
 
